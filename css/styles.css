@@ -8,60 +8,64 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
 }
+
+p { font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
 div.frame{
     width: 100%;
     height: 150px;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: #d3d3d3;
     float: left;
     margin-top: 10px;
 }
 
 .content {
-	margin-top:2%;
 	float: left;
 	clear: both;
 	background-color: #d3d3d3;
-	margin:1%;
+	padding: 5px;
 }
 
 #tb1 {
 	width: 150px;
 	height: 25px;
-	border: 2px solid black;
+	border: 1px solid black;
 	background-color:#ff4d4d;
 	vertical-align:top;
 	float: right;
 	clear: right;
 	text-align: center;
-	margin-top: -2px;
-	margin-right: -2px;
+	margin-top: -1px;
+	margin-right: -1px;
 }
 
 #tb2 {
 	width: 150px;
 	height: 25px;
-	border: 2px solid black;
+	border: 1px solid black;
 	background-color:#ff9900;
 	vertical-align:top;
 	float: right;
 	clear: right;
 	text-align: center;
-	margin-top: -2px;
-	margin-right: -2px;
+	margin-top: -1px;
+	margin-right: -1px;
 }
 
 #tb3 {
 	width: 150px;
 	height: 25px;
-	border: 2px solid black;
+	border: 1px solid black;
 	background-color:#00cc66;
 	vertical-align:top;
 	float: right;
 	clear: right;
 	text-align: center;
-	margin-top: -2px;
-	margin-right: -2px;
+	margin-top: -1px;
+	margin-right: -1px;
 }
 
 /* Simple Responsive Framework. */
