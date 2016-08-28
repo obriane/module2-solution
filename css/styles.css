@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;	
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+div.frame{
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    background-color: #d3d3d3;
+    float: left;
+    margin-top: 10px;
+}
+
+.content {
+	margin-top:2%;
+	float: left;
+	clear: both;
+	background-color: #d3d3d3;
+	margin:1%;
+}
+
+#tb1 {
+	width: 150px;
+	height: 25px;
+	border: 2px solid black;
+	background-color:#ff4d4d;
+	vertical-align:top;
+	float: right;
+	clear: right;
+	text-align: center;
+	margin-top: -2px;
+	margin-right: -2px;
+}
+
+#tb2 {
+	width: 150px;
+	height: 25px;
+	border: 2px solid black;
+	background-color:#ff9900;
+	vertical-align:top;
+	float: right;
+	clear: right;
+	text-align: center;
+	margin-top: -2px;
+	margin-right: -2px;
+}
+
+#tb3 {
+	width: 150px;
+	height: 25px;
+	border: 2px solid black;
+	background-color:#00cc66;
+	vertical-align:top;
+	float: right;
+	clear: right;
+	text-align: center;
+	margin-top: -2px;
+	margin-right: -2px;
+}
+
+/* Simple Responsive Framework. */
+.box {
+	width: 100%
+	
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg {
+    width: 33%;
+    float: left;
+    padding:10px;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md {
+  	width: 50%;
+  	float: left;
+  	padding:10px;
+  	}
+
+  .col-md1 {
+  	width: 100%;
+  	float: left;
+  	padding:10px;
+  	}
+}	
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm {
+  	width: 100%;
+  	padding:10px;
+  	}
+}
